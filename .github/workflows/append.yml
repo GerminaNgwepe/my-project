@@ -41,6 +41,6 @@ jobs:
 
       - name: Commit code
         run: |
-          git Add .
+          git add .
           git commit -m "Append current date and name to file"
           git push origin main
