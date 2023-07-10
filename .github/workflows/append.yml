@@ -39,6 +39,7 @@ jobs:
       - name: Append current date and name
         run: |
           echo "Germina" >> File1.txt
+          echo "Current date" -$(date +"%d-%m-%Y") >>File1.txt
 
       - name: Commit code
         run: |
